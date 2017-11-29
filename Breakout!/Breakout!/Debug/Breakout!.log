@@ -1,0 +1,8 @@
+﻿  game.cpp
+c:\users\51565\onedrive\documents\visual studio 2017\projects\breakout!\breakout!\game.cpp(390): warning C4996: 'sf::Text::setColor': was declared deprecated
+  d:\sfml-2.4.2\include\sfml\graphics\text.hpp(177): note: see declaration of 'sf::Text::setColor'
+c:\users\51565\onedrive\documents\visual studio 2017\projects\breakout!\breakout!\game.cpp(399): warning C4996: 'sf::Text::setColor': was declared deprecated
+  d:\sfml-2.4.2\include\sfml\graphics\text.hpp(177): note: see declaration of 'sf::Text::setColor'
+c:\users\51565\onedrive\documents\visual studio 2017\projects\breakout!\breakout!\game.cpp(408): warning C4996: 'sf::Text::setColor': was declared deprecated
+  d:\sfml-2.4.2\include\sfml\graphics\text.hpp(177): note: see declaration of 'sf::Text::setColor'
+  Breakout!.vcxproj -> C:\Users\51565\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Debug\Breakout!.exe
