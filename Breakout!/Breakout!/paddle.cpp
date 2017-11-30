@@ -4,7 +4,7 @@
 
 Paddle::Paddle(float xPos, float yPos)
 {
-	size = Vector2f(70, 20);
+	size = Vector2f(100, 20);
 	paddle.setSize(size);
 	paddle.setFillColor(sf::Color(222, 184, 135));
 	paddle.setPosition(xPos, yPos);

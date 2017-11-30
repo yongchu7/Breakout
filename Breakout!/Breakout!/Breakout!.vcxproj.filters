@@ -24,10 +24,13 @@
     <ClCompile Include="ball.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="block.cpp">
+    <ClCompile Include="wall.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="wall.cpp">
+    <ClCompile Include="manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="brick.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -38,11 +41,50 @@
     <ClInclude Include="ball.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="block.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="wall.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="brick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Breakout!\ball_lost.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="..\..\..\..\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Breakout!\break.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="..\..\..\..\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Breakout!\gameover.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="..\..\..\..\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Breakout!\level_complete.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="..\..\..\..\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Breakout!\paddle_bounce.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="..\..\..\..\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Breakout!\shatter.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="..\..\..\..\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Breakout!\wall_bounce.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Breakout!\brick.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Breakout!\cracked brick.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\..\..\..\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Breakout!\arial.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
   </ItemGroup>
 </Project>

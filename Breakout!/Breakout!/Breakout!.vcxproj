@@ -142,16 +142,34 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ball.cpp" />
-    <ClCompile Include="block.cpp" />
+    <ClCompile Include="brick.cpp" />
     <ClCompile Include="game.cpp" />
+    <ClCompile Include="manager.cpp" />
     <ClCompile Include="paddle.cpp" />
     <ClCompile Include="wall.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ball.h" />
-    <ClInclude Include="block.h" />
+    <ClInclude Include="brick.h" />
+    <ClInclude Include="manager.h" />
     <ClInclude Include="paddle.h" />
     <ClInclude Include="wall.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Breakout!\ball_lost.wav" />
+    <Media Include="..\..\..\..\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Breakout!\break.wav" />
+    <Media Include="..\..\..\..\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Breakout!\gameover.wav" />
+    <Media Include="..\..\..\..\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Breakout!\level_complete.wav" />
+    <Media Include="..\..\..\..\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Breakout!\paddle_bounce.wav" />
+    <Media Include="..\..\..\..\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Breakout!\shatter.wav" />
+    <Media Include="..\..\..\..\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Breakout!\wall_bounce.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Breakout!\brick.png" />
+    <Image Include="..\..\..\..\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Breakout!\cracked brick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\..\..\..\OneDrive\Documents\Visual Studio 2017\Projects\Breakout!\Breakout!\arial.ttf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
