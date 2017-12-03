@@ -68,12 +68,12 @@ void playground() {
 	Font font;
 	font.loadFromFile("arial.ttf");
 
-	Texture texture;
+	/*Texture texture;
 	texture.loadFromFile("menu.png");
 	Sprite background;
 	background.setTexture(texture);
 	background.setTextureRect(IntRect(10, 10, 800, 600));
-	background.setColor(sf::Color(255, 255, 255, 128));
+	background.setColor(sf::Color(255, 255, 255, 128));*/
 
 	top.setPosition(0, 0);
 	top.setSize(Vector2f(800, 0));
@@ -132,7 +132,7 @@ void playground() {
 	
 
 	window.clear(Color::Black);
-	window.draw(background);
+	//window.draw(background);
 	manager.draw(window);
 
 	window.draw(Left);

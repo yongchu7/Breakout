@@ -11,6 +11,7 @@ using namespace sf;
 bool Space;
 SoundBuffer buf1;
 Sound hitwall;
+//buf1.loadFromFile("wall_bounce.wav");
 
 SoundBuffer buf5;
 Sound hitpaddle;

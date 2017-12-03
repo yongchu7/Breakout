@@ -5,4 +5,6 @@ c:\users\51565\desktop\game-230-breakout\breakout!\breakout!\game.cpp(119): warn
   d:\sfml-2.4.2\include\sfml\graphics\text.hpp(177): note: see declaration of 'sf::Text::setColor'
 c:\users\51565\desktop\game-230-breakout\breakout!\breakout!\game.cpp(128): warning C4996: 'sf::Text::setColor': was declared deprecated
   d:\sfml-2.4.2\include\sfml\graphics\text.hpp(177): note: see declaration of 'sf::Text::setColor'
+  ball.cpp
+  Generating Code...
   Breakout!.vcxproj -> C:\Users\51565\Desktop\GAME-230-BREAKOUT\Breakout!\Debug\Breakout!.exe
